@@ -19,7 +19,7 @@ Prometheus基本原理是通过HTTP协议周期性抓取被监控组件的状态
 
 输出被监控组件信息的HTTP接口被叫做exporter。目前互联网公司常用的组件大部分都有exporter可以直接使用，比如Varnish、Haproxy、Nginx、MySQL、Linux 系统信息 (包括磁盘、内存、CPU、网络等等)，具体支持的源看：https://github.com/prometheus。
 
-图片1
+![](https://github.com/Mountains-and-rivers/prometheus-learn/blob/main/images/01.png)
 
 ### Prometheus各组件运行流程如下：
 
@@ -47,7 +47,7 @@ Prometheus基本原理是通过HTTP协议周期性抓取被监控组件的状态
 
 实验拓扑图：
 
-图片2
+![](https://github.com/Mountains-and-rivers/prometheus-learn/blob/main/images/02.png)
 
 ### 安装mysql
 
@@ -3927,7 +3927,8 @@ systemctl restart grafana-server.service
 
 验证
 
-图片3
+![](https://github.com/Mountains-and-rivers/prometheus-learn/blob/main/images/03.png)
 
-图片4
+![](https://github.com/Mountains-and-rivers/prometheus-learn/blob/main/images/04.png)
 
+![](https://github.com/Mountains-and-rivers/prometheus-learn/blob/main/images/05.png)
